@@ -1,0 +1,312 @@
+html,body{
+     margin:0;
+     padding: 0;
+    
+}
+div.body{
+	max-width: 750px;
+	height: 100%;
+    margin:0 auto;
+	background-color: #F5F5F5;
+}
+.clearfix::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+ul{
+	list-style: none;
+}
+/*顶端*/
+.top{
+	height: 54.4px;
+	width: 100%;
+    border-bottom: 1px solid #D8DBDE;
+    text-align: center;
+    line-height: 54.4px;
+    margin-bottom: 46px;
+    font-size: 22px;
+    position: relative;
+}
+.top>div{
+	line-height: 54.4px;
+}
+.top>div:first-child{
+	color: #898B8B;
+	font-size: 16px;
+	position: absolute;
+}
+/*搜索框*/
+.search{
+	box-sizing: border-box;
+	height: 80px;
+	padding: 20px;
+	background-color: #E3E4E6;
+}
+.search>.inner{
+	height: 100%;
+	background-color: #ffffff;
+	border-radius: 10px;
+	padding-left:10px; 
+
+}
+.search>.inner>.inner_icon{
+	float: left;
+	width: 30px;
+	height:40px;
+	line-height: 40px;
+	text-align: center;
+	border:0;
+}
+.search>.inner>.inner_icon>i{
+	font-size: 22px;
+	color: gray;
+
+}
+.search>.inner>input{
+	float: left;
+	width: 90%;
+	height: 90%;
+	border:0;
+}
+.picture>img{
+	width: 750px;
+	height: 200px;
+}
+/*导航栏*/
+.nav{
+	height: 100px;
+	background-color: #fff;
+	padding: 12px 0 17px 0;
+	box-sizing: border-box;
+	display: flex;
+	border: 1px solid #D8DBDE;
+	margin: 15px 0;
+}
+.nav>div{
+	flex: 1;
+	text-align: center;
+	line-height: 100%;
+	height: 100%;
+	border-right:1px solid #D8DBDE;
+}
+.nav>div:last-child{
+	border-right:none;
+}
+.nav>div>.one{
+	background-color: #3BA0DD;
+}
+.nav>div>.two{
+	background-color: #63CA00;
+}
+.nav>div>.three{
+	background-color: #FDB221;
+}
+.nav>div>.four{
+	background-color: #F6625E;
+}
+.nav>div>.five{
+	background-color: #F68634;
+}
+.nav>div>div{
+	width: 45px;
+	height: 45px;
+	color: #fff;
+	border-radius: 50%;
+	/*background-color: pink;*/
+	text-align: center;
+	line-height: 45px;
+	margin: 0 auto;
+}
+.nav>div>p{
+	margin-top: 9px;
+}
+.nav>div i{
+	font-size: 30px;
+}
+/*内容区*/
+.wrapper{
+	box-sizing:border-box;
+	height: 326px;
+	padding: 15px 15px 0;
+	background-color: #fff; 
+	margin-bottom: 10px;
+}
+.wrapper>.up>.img,
+.wrapper>.up img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+.wrapper>.up>.img{
+	float: left;
+	margin-right: 15px;
+}
+.wrapper>.up>.middle{
+	float: left;
+	height: 20px;
+	font-size: 19px;
+	color: red;
+}
+.wrapper>.up p{
+	margin: 0;
+	font-size: 15px;
+	color: #7BA0C3;
+}
+.wrapper>.content{
+	font-size: 22px;
+	height: 188px;
+	padding:15px 0;
+	margin-bottom: 1px;
+}
+.wrapper>.content>div:first-child{
+	margin-bottom: 8px;
+}
+.wrapper>.content>.vote{
+	margin: 12px 0;
+	background-color: #F5F5F5;
+}
+.wrapper>.content>.vote>.img{
+	float: left;
+	width: 87px;
+	height: 87px;
+	margin-right: 13px;
+}
+.wrapper>.content>.vote>.word{
+	float: left;
+	height: 87px;
+	line-height: 87px;
+	font-size: 20px;
+}
+.wrapper>.down{
+	box-sizing: border-box;
+	height: 42px;
+	padding: 8px;
+	border: 1px solid #D8DBDE;
+}
+.wrapper>.down>div{
+	display: inline-block;
+	text-align: center;
+	height: 100%;
+	width: 230px;
+	line-height: 100%;
+	font-size: 16px;
+	color: #939393;
+	border-right: 1px solid #D8DBDE;
+}
+.wrapper>.down>div:last-child{
+	border-right: none;
+}
+.wrapper>.down>div>i{
+	font-size: 20px;
+}
+ /*新浪汽车*/
+ .xinlang{
+ 	height: 655px;
+ }
+ .xinlang>.content{
+ 	height: 516px;
+ }
+.wrapper>.content>.photo{
+	height: 400px;
+	box-sizing: border-box;
+	/*background-color: pink;*/
+}
+.wrapper>.content>.photo>.photo_li{
+	width: 400px;
+	height: 400px;
+	/*background-color: gray;*/
+	margin: 0;
+	padding: 0;
+}
+.wrapper>.content>.photo>.photo_li>li{
+	float: left;
+	width: 128px;
+	height: 128px;
+	margin-bottom: 8px;
+
+}
+.wrapper>.content>.photo li:nth-child(2),
+.wrapper>.content>.photo li:nth-child(5),
+.wrapper>.content>.photo li:nth-child(8){
+		margin: 0 8px;
+}
+.wrapper>.content>.photo>.photo_li>li>img{
+	width: 128px;
+	height: 128px;
+}
+/*车系热议榜*/
+.talk{
+	background-color: #fff;
+	margin: 15px 0;
+}
+.talk>.title{
+	padding: 0 10px;
+	height: 45px;
+	line-height: 45px;
+	border-left: 3px solid #FF8200;
+	border-bottom:  1px solid #D8DBDE;
+}
+.talk>.title .left{
+    float: left;
+    font-size: 18px;
+    color: #636363;
+}
+.talk>.title .right{
+    float: right;
+    font-size: 15px;
+    color: #939393;
+}
+.talk>.talk_picture{
+	display: flex;
+	padding: 9px 10px;
+	height:320px; 
+	text-align: center;
+}
+.talk>.talk_picture>.two{
+	margin:0 10px;
+}
+.talk>.talk_picture img{
+	width: 236.6px;
+	height: 236.6px;
+}
+.talk>.talk_picture p:last-child{
+	color: #939393;
+	margin:0;
+	font-size: 16px;
+}
+.talk>.talk_picture p:first-child{
+	font-size: 25px;
+	margin:0;
+}
+/*几分钟义务教室*/
+.room>.content{
+	height: 430px;
+}
+/*底部*/
+.footer{
+	position: fixed;
+	bottom: 0;
+	display: flex;
+	background-color: #fff;
+	height: 60px;
+	width: 780px;
+	border: 1px solid #D8DBDE;
+	left: 50%;
+	margin-left: -390px;
+}
+.footer>div{
+	flex: 1;
+	text-align: center;
+	height: 60px;
+	color: #939393;
+	padding: 8px;
+	/*line-height: 60px;*/
+}
+.footer>div i{
+	font-size: 20px;
+}
+.footer>div>p{
+	font-size: 15px;
+	margin: 0;
+}
